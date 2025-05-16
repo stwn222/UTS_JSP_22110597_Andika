@@ -25,17 +25,17 @@
 ![image](https://github.com/user-attachments/assets/d154d342-a372-4053-b1a4-fbc4ec2c9f72)
 
 4. Cara Menjalankan Proyek
-   1. Arahkan ke folder NetBeansProjects
-      Contoh: C:\Users\nama_user\Documents\NetBeansProjects\UTS_JSP_22110597_Andika
-
-   2. Buat struktur folder sebagai berikut:
-
-![image](https://github.com/user-attachments/assets/dce0b9af-b104-4045-baaf-2dd06928a4e8)
-
-   3. Buka NetBeans, lalu refresh atau buka proyek secara manual:
-
-      - Klik File > Open Project
-
-      - Pilih folder UTS_JSP_22110597_Andika
-
+   
+   -Buka Netbeans
+   
+   -Buat project Baru
+   
+   -masuk ke Directory Web pada NetBeans
+   
+   -lalu open Directory in terminal dan lakukan clone git
+   
+      ```
+          git clone https://github.com/stwn222/UTS_JSP_22110597_Andika.git
+     ```
+   -Refresh Netbeans dan Selesaii
 
