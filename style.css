@@ -1,100 +1,192 @@
-        body {
-            font-family: Arial, sans-serif;
-            padding: 20px;
-            background: #1B262C;
-        }
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background: #1B262C;
+}
 
-        h2 {
-            text-align: center;
-            margin-bottom: 30px;
-        }
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
 
-        .film {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
-            margin-top: 80px;
-        }
-        .heading {
-            text-align: center;
-            font-size: 36px;
-            color: #DDE6ED;
-            font-weight: 900;
-            margin-bottom: 40px;
-        }
+.film {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin-top: 80px;
+}
 
-        .card {
-            background: #0F4C75;
-            border-radius: 10px;
-            overflow: hidden;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-            transition: transform 0.3s ease;
-            box-sizing: border-box;
-            padding:20px 20px;
-        }
+.card {
+    background: #F3F3E0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    box-sizing: border-box;
+    padding:20px 20px;
+}
 
-        .card:hover {
-            transform: translateY(-5px);
-        }
+.card:hover {
+    transform: translateY(-5px);
+}
 
-        .card img {
-            width: 100%;
-            height: 300px;
-            object-fit: cover;
-        }
+.card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
 
-        .card-content {
-            padding: 15px;
-        }
+.card-content {
+    padding: 15px;
+}
 
-        .judul {
-            font-size: 24px;
-            margin: 10px 0 5px;
-            color: #DDE6ED;
-            font-weight: 900;
-        }
+.judul {
+    font-size: 24px;
+    margin: 10px 0 5px;
+    color: #183B4E;
+    font-weight: 900;
+}
 
-        .genre {
-            font-size: 14px;
-            color: #9DB2BF;
-            margin-bottom: 10px;
-            font-weight: 600;
-        }
+.genre {
+    font-size: 14px;
+    color: #27548A;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
 
-        .deskripsi {
-            font-size: 14px;
-            margin-bottom: 10px;
-            color: #DDE6ED;
-            font-weight: 500;
-        }
+.deskripsi {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #183B4E;
+    font-weight: 500;
+}
 
-        .info {
-            font-size: 13px;
-            margin-bottom: 5px;
-            color: #DDE6ED;
-            font-weight: 500;
-        }
+.info {
+    font-size: 13px;
+    margin-bottom: 5px;
+    color: #183B4E;
+    font-weight: 500;
+}
 
-        .button-container {
-            text-align: center;
-            margin-top: 30px;
-        }
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
 
-        .btn {
-            background: #1B262C;
-            color: DDE6ED;
-            border: none;
-            padding: 10px 20px;
-            text-decoration: none;
-            border-radius: 5px;
-            margin: 20px auto;
-            transition: transform 0.3s ease;
-        }
-        .btn a{
-            text-decoration: none;
-        }
+.btn {
+    background: #1B262C;
+    color: #DDA853;
+    border: none;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin: 20px auto;
+    transition: transform 0.3s ease;
+}
+.btn a{
+    text-decoration: none;
+}
 
-        .btn:hover {
-            background: #0F4C75;
-            transform: translateY(-5px);
-        }
+.btn:hover {
+    background: #000000;
+    transform: translateY(-5px);
+}
+
+/* Form Pesan*/
+.card h2 {
+text-align: center;
+color: #183B4E;
+}
+
+form {
+    display: grid;
+    gap: 12px;
+}
+
+form > div {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+}
+
+label {
+    font-weight: bold;
+    color: #183B4E;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #183B4E;
+    font-size: 1em;
+    width: 100%;
+}
+
+/* button {
+    grid-column: span 2;
+    padding: 10px;
+    background-color: #1B262C;
+    color: #DDA853;
+    border: none;
+    border-radius: 8px;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #183B4E;
+} */
+
+/* Struk style*/
+.struk-container {
+display: grid;
+gap: 1rem;
+background: #F3F3E0;
+padding: 2rem;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.1);
+max-width: 400px;
+width: 100%;
+place-self: center;
+}
+
+.struk-container h2 {
+margin-bottom: 1rem;
+text-align: center;
+}
+
+.item {
+display: grid;
+grid-template-columns: 1fr 2fr;
+padding: 0.5rem 0;
+border-bottom: 1px solid #ddd;
+}
+
+.item:last-child {
+border-bottom: none;
+}
+
+.label {
+font-weight: bold;
+}
+
+.back-button {
+margin-top: 1.5rem;
+text-align: center;
+}
+
+.back-button a {
+background-color: #1B262C;
+color: #DDA853;
+padding: 0.5rem 1rem;
+border: none;
+text-decoration: none;
+border-radius: 5px;
+}
+
+.back-button a:hover {
+background-color: #183B4E;
+}
