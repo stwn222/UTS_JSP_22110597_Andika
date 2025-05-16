@@ -17,7 +17,7 @@ Contoh :   C:\Users\nama_user\Documents\NetBeansProjects\UTS_JSP_22110597_Andika
    
 ![image](https://github.com/user-attachments/assets/5fbe4a35-852c-45d9-bf08-4de628f41e30)
 
-  Jika tidak ingin repot buat folder webnya saja
+  Folder utamanya adalah web
   
 4. Copy Index.jsp, formPesan.jsp, dan struk.jsp ke dalam folder web
 5. Buka NetBeans dan refresh Project
