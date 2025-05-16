@@ -17,23 +17,33 @@
         }
     }
 
-    List<Film> daftarFilm = new ArrayList<>();
-    daftarFilm.add(new Film(
-        "Avengers: Endgame", "Action", "Pertarungan epik melawan Thanos.",
-        "https://upload.wikimedia.org/wikipedia/id/0/0d/Avengers_Endgame_poster.jpg",
-        180, 50000, Arrays.asList("10:00", "13:00", "18:00")
-    ));
-     daftarFilm.add(new Film(
-        "Inside Out", "Animation", "Petualangan emosi dalam pikiran seorang gadis kecil.",
-        "https://upload.wikimedia.org/wikipedia/en/0/0a/Inside_Out_%282015_film%29_poster.jpg",
-        102, 42000, Arrays.asList("08:00", "11:00", "15:00")
-    ));
-    daftarFilm.add(new Film(
-        "Interstellar", "Sci-Fi", "Misi luar angkasa demi menyelamatkan umat manusia.",
-        "https://upload.wikimedia.org/wikipedia/en/b/bc/Interstellar_film_poster.jpg",
-        169, 55000, Arrays.asList("11:00", "15:00", "20:00")
-    ));
+List<Film> daftarFilm = new ArrayList<>();
+daftarFilm.add(new Film(
+    "Dune", "Sci-Fi", "Paul Atreides harus menyelamatkan masa depan keluarganya dan planet Arrakis.",
+    "https://upload.wikimedia.org/wikipedia/en/8/8e/Dune_%282021_film%29.jpg",
+    155, 53000, Arrays.asList("10:00", "14:00", "19:00")
+));
 
+daftarFilm.add(new Film(
+    "Coco", "Animation", "Miguel menjelajah Dunia Arwah untuk memahami arti keluarga dan musik.",
+    "https://upload.wikimedia.org/wikipedia/en/9/98/Coco_%282017_film%29_poster.jpg",
+    105, 40000, Arrays.asList("09:00", "13:00", "17:00")
+));
+daftarFilm.add(new Film(
+    "Tenet", "Sci-Fi", "Seorang agen rahasia harus memanipulasi waktu untuk mencegah Perang Dunia ketiga.",
+    "https://upload.wikimedia.org/wikipedia/en/1/14/Tenet_movie_poster.jpg",
+    150, 54000, Arrays.asList("12:00", "16:00", "20:00")
+));
+daftarFilm.add(new Film(
+    "La La Land", "Musical", "Kisah cinta antara musisi jazz dan aktris yang mengejar impian di Los Angeles.",
+    "https://upload.wikimedia.org/wikipedia/en/a/ab/La_La_Land_%28film%29.png",
+    128, 50000, Arrays.asList("10:00", "14:00", "18:00")
+));
+daftarFilm.add(new Film(
+    "Knives Out", "Mystery", "Seorang detektif menyelidiki kematian misterius dari seorang penulis kaya.",
+    "https://upload.wikimedia.org/wikipedia/en/1/1f/Knives_Out_poster.jpeg",
+    131, 48000, Arrays.asList("11:00", "15:00", "19:00")
+));
     session.setAttribute("daftarFilm", daftarFilm);
 %>
 
@@ -44,12 +54,13 @@
 </head>
 <body>
     <div class="film">
-        <h1 class="heading">Bioskop XYZ</h1>
+        
         <%
             for (Film f : daftarFilm) {
         %>
         <div class="card">
                 <img src="<%= f.gambar %>" class="card-img-top" alt="<%= f.judul %>">
+                
                 <div class="card-content">
                     <h5 class="judul"><%= f.judul %></h5>
                     <h6 class="genre"><%= f.genre %></h6>
