@@ -1,25 +1,41 @@
-Deskripsi Proyek: Sistem Pemesanan Tiket Bioskop
+1. Sistem Pemesanan Tiket Bioskop
+   Aplikasi web sederhana berbasis JSP (JavaServer Pages) untuk melakukan pemesanan tiket bioskop secara online. Proyek ini dibuat untuk mempermudah pengguna dalam memilih film, menentukan jumlah tiket, serta mendapatkan struk pemesanan.
+   
+2. Fitur
+   -Menampilkan daftar film yang sedang tayang
+   -Detail lengkap setiap film: judul, genre, durasi, harga, dan deskripsi
+   -Pilihan jam tayang
+   -Form pemesanan tiket
+   -Halaman struk sebagai bukti pemesanan
 
-Proyek ini merupakan sebuah aplikasi web sederhana yang dibuat menggunakan teknologi JSP (JavaServer Pages), dengan tujuan untuk memudahkan pelanggan dalam melakukan pemesanan tiket bioskop secara online. Sistem ini dirancang untuk menampilkan daftar film yang sedang tayang lengkap dengan informasi seperti judul, genre, deskripsi singkat, durasi, harga tiket, dan pilihan jam tayang. Setiap film juga dilengkapi dengan gambar poster agar tampilan lebih menarik dan informatif bagi pengguna.
-
-Pengguna dapat melakukan pemesanan tiket melalui halaman form yang telah disediakan. Di halaman ini, mereka diminta untuk mengisi nama pemesan, jumlah tiket yang ingin dibeli, memilih film yang diinginkan dari daftar yang tersedia, serta memilih jam tayang yang sesuai. Setelah mengisi semua informasi, pengguna akan diarahkan ke halaman struk sebagai bukti pemesanan. Halaman struk ini akan menampilkan ringkasan data yang telah diinput, seperti nama pemesan, judul film, jam tayang, jumlah tiket, dan total harga yang harus dibayar.
+3. Screenshot
+   -Beranda (index.jsp)
+   >Menampilkan daftar film dengan poster dan informasi singkat.
 
 ![image](https://github.com/user-attachments/assets/535a9c3f-b048-4539-86c5-8b8879b5f84f)
 
+   -Formulir Pemesanan (formPesan.jsp)
+   >Pengguna mengisi nama, memilih film, jumlah tiket, dan jam tayang.
+
 ![image](https://github.com/user-attachments/assets/7ac5fcc1-a6b8-42dc-a563-76274725d8ac)
+
+   -Struk Pemesanan (struk.jsp)
+   >Ringkasan data pesanan seperti nama, film, jam tayang, jumlah tiket, dan total harga.
 
 ![image](https://github.com/user-attachments/assets/d154d342-a372-4053-b1a4-fbc4ec2c9f72)
 
-Langkah - Langkah Menjalankan Aplikasi
-1. Buka file Explorer lalu arahkan ke lokasi NetBeansProjects
-Contoh :   C:\Users\nama_user\Documents\NetBeansProjects\UTS_JSP_22110597_Andika
-2. Create folder agar strukturnya menjadi :
-   
-![image](https://github.com/user-attachments/assets/5fbe4a35-852c-45d9-bf08-4de628f41e30)
+4. Cara Menjalankan Proyek
+   1. Arahkan ke folder NetBeansProjects
+      Contoh: C:\Users\nama_user\Documents\NetBeansProjects\UTS_JSP_22110597_Andika
 
-  Folder utamanya adalah web
-  
-4. Copy Index.jsp, formPesan.jsp, dan struk.jsp ke dalam folder web
-5. Buka NetBeans dan refresh Project
-6. Jika Tidak muncul,Lalu Open Project Manual lalu Arahkan ke lokasi
-   C:\Users\nama_user\Documents\NetBeansProjects\UTS_JSP_22110597_Andika
+   2. Buat struktur folder sebagai berikut:
+
+![image](https://github.com/user-attachments/assets/dce0b9af-b104-4045-baaf-2dd06928a4e8)
+
+   3. Buka NetBeans, lalu refresh atau buka proyek secara manual:
+
+      - Klik File > Open Project
+
+      - Pilih folder UTS_JSP_22110597_Andika
+
+
