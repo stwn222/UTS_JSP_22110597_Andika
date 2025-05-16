@@ -23,9 +23,9 @@
 <html>
 <head>
     <title>Struk Pemesanan</title>
-    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="p-4">
+<body>
      <div class="struk-container">
         <h2>Struk Pemesanan</h2>
         <div class="item">
@@ -48,8 +48,8 @@
             <div class="label">Total Harga:</div>
             <div>Rp <%= total %></div>
         </div>
-        <div class="back-button">
-            <a href="index.jsp">Kembali ke Halaman Utama</a>
+        <div class="button-container">
+            <a class="btn" href="index.jsp">Kembali ke Halaman Utama</a>
         </div>
     </div>
 </body>
