@@ -14,7 +14,7 @@
 <html>
 <head>
     <title>Form Pemesanan</title>
-    <link rel="stylesheet" href="style1.css"/>
+    <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
     <div class="film">
@@ -52,7 +52,7 @@
                 <% } %>
             </select>
         </div>
-        <button type="submit" class="btn btn-success">Pesan</button>
+        <button type="submit" class="btn">Pesan</button>
     </form>
     </div>
     </div>
