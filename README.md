@@ -14,9 +14,11 @@ Langkah - Langkah Menjalankan Aplikasi
 1. Buka file Explorer lalu arahkan ke lokasi NetBeansProjects
 Contoh :   C:\Users\nama_user\Documents\NetBeansProjects\UTS_JSP_22110597_Andika
 2. Create folder agar strukturnya menjadi :
+   
 ![image](https://github.com/user-attachments/assets/5fbe4a35-852c-45d9-bf08-4de628f41e30)
+
   Jika tidak ingin repot buat folder webnya saja
-3. Copy Index.jsp, formPesan.jsp, dan struk.jsp ke dalam folder web
-4. Buka NetBeans dan refresh Project
-5. Jika Tidak muncul,Lalu Open Project Manual lalu Arahkan ke lokasi
+4. Copy Index.jsp, formPesan.jsp, dan struk.jsp ke dalam folder web
+5. Buka NetBeans dan refresh Project
+6. Jika Tidak muncul,Lalu Open Project Manual lalu Arahkan ke lokasi
    C:\Users\nama_user\Documents\NetBeansProjects\UTS_JSP_22110597_Andika
